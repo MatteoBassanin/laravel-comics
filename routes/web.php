@@ -15,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
+
+
+
     $comics = config('comics');
+    $linkArrayTop = config('linkArrayTop');
     return view('home', compact('comics'));
+    return view('home', compact('linkArrayTop'));
 })->name('home');

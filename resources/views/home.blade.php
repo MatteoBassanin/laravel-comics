@@ -2,7 +2,7 @@
 
 
 @section('page-title')
-    Hone page
+    Home page
 @endsection
 
 
