@@ -1,0 +1,3 @@
+<main>
+    qui main
+</main>
