@@ -18,8 +18,55 @@ Route::get('/', function () {
 
 
 
+    $data = [
+        $linkArrayTop =  [
+            [
+
+                "name" => "CHARACTERS",
+            ],
+
+            [
+                "name" => "COMICS",
+
+            ],
+            [
+                "name" => "MOVIES",
+
+            ],
+            [
+                "name" => "TV",
+
+            ],
+            [
+                "name" => "GAMES",
+
+            ],
+            [
+                "name" => "COLLECTIBLES",
+
+            ],
+            [
+                "name" => "FANS",
+
+            ],
+            [
+                "name" => "NEWS",
+
+            ],
+            [
+                "name" => "SHOP",
+
+            ]
+
+
+        ],
+    ];
+
+
+
+
+
+
     $comics = config('comics');
-    $linkArrayTop = config('linkArrayTop');
     return view('home', compact('comics'));
-    return view('home', compact('linkArrayTop'));
 })->name('home');

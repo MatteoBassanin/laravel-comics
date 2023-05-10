@@ -6,9 +6,7 @@
     <nav class="navbar d_flex">
 
         <ul class="d_flex ">
-            @foreach ($linkArrayTop as $link)
-                <li><a href="#">{{ $link }}</a></li>
-            @endforeach
+
         </ul>
     </nav>
 
