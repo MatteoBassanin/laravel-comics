@@ -18,49 +18,49 @@ Route::get('/', function () {
 
 
 
-    $data = [
-        $linkArrayTop =  [
-            [
+    // $data = [
+    //     $linkArrayTop =  [
+    //         [
 
-                "name" => "CHARACTERS",
-            ],
+    //             "name" => "CHARACTERS",
+    //         ],
 
-            [
-                "name" => "COMICS",
+    //         [
+    //             "name" => "COMICS",
 
-            ],
-            [
-                "name" => "MOVIES",
+    //         ],
+    //         [
+    //             "name" => "MOVIES",
 
-            ],
-            [
-                "name" => "TV",
+    //         ],
+    //         [
+    //             "name" => "TV",
 
-            ],
-            [
-                "name" => "GAMES",
+    //         ],
+    //         [
+    //             "name" => "GAMES",
 
-            ],
-            [
-                "name" => "COLLECTIBLES",
+    //         ],
+    //         [
+    //             "name" => "COLLECTIBLES",
 
-            ],
-            [
-                "name" => "FANS",
+    //         ],
+    //         [
+    //             "name" => "FANS",
 
-            ],
-            [
-                "name" => "NEWS",
+    //         ],
+    //         [
+    //             "name" => "NEWS",
 
-            ],
-            [
-                "name" => "SHOP",
+    //         ],
+    //         [
+    //             "name" => "SHOP",
 
-            ]
+    //         ]
 
 
-        ],
-    ];
+    //     ],
+    // ];
 
 
 
@@ -68,5 +68,6 @@ Route::get('/', function () {
 
 
     $comics = config('comics');
+
     return view('home', compact('comics'));
 })->name('home');

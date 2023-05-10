@@ -15,7 +15,8 @@
 
 
     <main>
-        @yield('content')
+        {{-- @yield('partials.main') --}}
+        @include('partials.main')
     </main>
 
 
